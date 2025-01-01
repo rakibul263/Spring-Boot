@@ -19,5 +19,6 @@ public class SavingsAccount extends BankAccount {
         SavingsAccount savingsAccount = new SavingsAccount(1263, 100);
         savingsAccount.depositMoney(200);
         savingsAccount.withdrawMoney(50);
+        savingsAccount.depositMoney(2000);
     }
 }
